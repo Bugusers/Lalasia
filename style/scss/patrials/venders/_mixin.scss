@@ -1,0 +1,65 @@
+// Headings / H1 - H6
+@mixin H1 {
+	font-weight: 700;
+	font-size: 64px;
+	line-height: 130%;
+}
+@mixin H2 {
+	font-weight: 700;
+	font-size: 44px;
+	line-height: 130%;
+}
+@mixin H3 {
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 130%;
+}
+@mixin H4 {
+	font-weight: 700;
+	font-size: 20px;
+	line-height: 130%;
+}
+@mixin H5 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 130%;
+}
+@mixin H6 {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 130%;
+}
+
+// Label / L1 - L3
+@mixin L1 {
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 130%;
+}
+@mixin L2 {
+	font-weight: 700;
+	font-size: 16px;
+	line-height: 130%;
+}
+@mixin L3 {
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 130%;
+}
+
+// Paragraph / P1 - P3
+@mixin P1 {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 180%;
+}
+@mixin P2 {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 180%;
+}
+@mixin P3 {
+	font-weight: 500;
+	font-size: 14px;
+	line-height: 180%;
+}
