@@ -1,0 +1,46 @@
+@font-face {
+  font-family: "EudoxusSans", sans-serif;
+  font-style: normal;
+  src: url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.woff") format("woff"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.woff") format("woff"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.woff") format("woff");
+}
+body {
+  font-family: "EudoxusSans";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.header {
+  position: sticky;
+  border-bottom: 2px solid #F3F3F3;
+}
+.header__content {
+  min-height: 120px;
+}
+.header__item {
+  gap: 24px;
+}
+
+.footer {
+  border-top: 1.5px solid #ECE4DE;
+  margin-top: 20px;
+  padding-top: 3.7%;
+}
+.footer__list {
+  list-style: none;
+}
+.footer__list ul:first-child {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+}
+.footer__list li {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 180%;
+}
+.footer__list li:first-child {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 130%;
+  color: #151411;
+}

@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "EudoxusSans", sans-serif;
+  font-style: normal;
+  src: url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.woff") format("woff"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.woff") format("woff"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.woff") format("woff");
+}
+body {
+  font-family: "EudoxusSans";
+  font-size: 18px;
+  font-weight: 500;
+}
