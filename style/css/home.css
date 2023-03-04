@@ -1,7 +1,8 @@
 @font-face {
-  font-family: "EudoxusSans", sans-serif;
+  font-family: "EudoxusSans";
   font-style: normal;
-  src: url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.woff") format("woff"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.woff") format("woff"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.woff") format("woff");
+  font-weight: normal;
+  src: url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.woff") format("woff"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.ttf") format("ttf"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.woff") format("woff"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.ttf") format("ttf"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.woff") format("woff"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.ttf") format("ttf");
 }
 body {
   font-family: "EudoxusSans";
@@ -16,8 +17,31 @@ body {
 .header__content {
   min-height: 120px;
 }
+.header ul {
+  display: none;
+}
+.header__link.active {
+  color: #518581;
+  border-bottom: 3px solid #518581;
+}
 .header__item {
+  display: none;
   gap: 24px;
+}
+
+.burger-menu {
+  display: flex;
+  cursor: pointer;
+  padding: 10px;
+  gap: 5px;
+  flex-direction: column;
+}
+.burger-menu span {
+  display: block;
+  height: 2px;
+  width: 22.5px;
+  border-radius: 25%;
+  background-color: #151411;
 }
 
 .footer {
@@ -25,22 +49,15 @@ body {
   margin-top: 20px;
   padding-top: 3.7%;
 }
-.footer__list {
-  list-style: none;
-}
-.footer__list ul:first-child {
-  font-weight: 700;
-  font-size: 20px;
-  line-height: 130%;
-}
-.footer__list li {
+.footer__list a {
+  text-decoration: none;
+  color: #151411;
   font-weight: 500;
   font-size: 18px;
   line-height: 180%;
 }
-.footer__list li:first-child {
+.footer__title {
   font-weight: 700;
   font-size: 20px;
   line-height: 130%;
-  color: #151411;
 }

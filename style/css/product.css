@@ -1,7 +1,8 @@
 @font-face {
-  font-family: "EudoxusSans", sans-serif;
+  font-family: "EudoxusSans";
   font-style: normal;
-  src: url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.woff") format("woff"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.woff") format("woff"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.woff") format("woff");
+  font-weight: normal;
+  src: url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.woff") format("woff"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Regular.ttf") format("ttf"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.woff") format("woff"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Bold.ttf") format("ttf"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.woff2") format("woff2"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.woff") format("woff"), url("../../../../assets/fonts/Eudoxus-Sans-font/EudoxusSans-Medium.ttf") format("ttf");
 }
 body {
   font-family: "EudoxusSans";

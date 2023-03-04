@@ -2,25 +2,15 @@
 	border-top: 1.5px solid #ECE4DE;
 	margin-top: 20px;
 	padding-top: 3.7%;
-
 	
 	&__list {
-		list-style: none;
-
-
-		ul {
-			&:first-child {
-				@include H4;
-			}
-		}
-
-		li {
+		a {
+			text-decoration: none;
+			color: #151411;
 			@include P1;
-
-			&:first-child {
-				@include H4;
-				color: #151411;
-			}
 		}
+	}
+	&__title {
+		@include H4;
 	}
 }

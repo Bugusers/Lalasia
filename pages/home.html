@@ -13,10 +13,12 @@
 	<header class="header">
 		<div class="container">
 			<div class="header__content d-flex align-items-center justify-content-between">
+
 				<a href="./home.html">
 					<img src="../assets/img/Logo.svg" alt="">
 				</a>
-				<ul class="nav col-12 col-md-auto mb-2 justify-content-center mb-md-1">
+
+				<ul class="d-md-flex nav col-12 col-md-auto mb-2 justify-content-center mb-md-1">
 					<li>
 						<a href="#" class="nav-link px-2 link-dark header__link">Product</a>
 					</li>
@@ -30,13 +32,20 @@
 						<a href="#" class="nav-link px-3 link-dark header__link">About Us</a>
 					</li>
 				</ul>
-				<div class="header__item d-flex align-items-center justify-content-between">
+
+				<div class="header__item d-md-flex align-items-center justify-content-between">
 					<div class="user__icon">
 						<img src="../assets/img/header/bag.svg" alt="">
 					</div>
 					<div class="user__icon">
 						<img src="../assets/img/header/user.svg" alt="">
 					</div>
+				</div>
+
+				<div class="burger-menu d-md-none">
+					<span></span>
+					<span></span>
+					<span></span>
 				</div>
 			</div>
 		</div>
@@ -51,27 +60,29 @@
 				<div class="footer__title"><img src="/assets/img/footer/foot-logo.svg" alt=""></div>
 				<p class="footer__text">Lalasia is digital agency that help you make better experience iaculis cras in.</p>
 			</div>
-			<div class="footer__item d-flex justify-content-between">
-				<ul class="footer__list">
-					<li>Product</li>
-					<li>New Arrivals</li>
-					<li>Best Selling</li>
-					<li>Home Decor</li>
-					<li>Kitchen Set</li>
-				</ul>
-				<ul class="footer__list">
-					<li>Services</li>
-					<li>Catalog</li>
-					<li>Blog</li>
-					<li>FaQ</li>
-					<li>Pricing</li>
-				</ul>
-				<ul class="footer__list">
-					<li>Facebook</li>
-					<li>New Arrivals</li>
-					<li>Instagram</li>
-					<li>Twitter</li>
-				</ul>
+
+			<div class="footer__items d-flex justify-content-between">
+				<div class="footer__list d-flex flex-column">
+					<h4 class="footer__title">Product</h4>
+					<a href="#">New Arrivals</a>
+					<a href="#">Best Selling</a>
+					<a href="#">Home Decor</a>
+					<a href="#">Kitchen Set</a>
+				</div>
+				<div class="footer__list d-flex flex-column">
+					<h4>Services</h4>
+					<a href="#">Catalog</a>
+					<a href="#">Blog</a>
+					<a href="#">FaQ</a>
+					<a href="#">Pricing</a>
+				</div>
+				<div class="footer__list d-flex flex-column">
+					<h4>Facebook</h4>
+					<a href="#">New Arrivals</a>
+					<a href="#">New Arrivals</a>
+					<a href="#">Instagram</a>
+					<a href="#">Twitter</a>
+				</div>
 			</div>
 		</div>
 	</footer>
